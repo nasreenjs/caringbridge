@@ -18,4 +18,7 @@ public class UserService {
         user.setProfilePhoto(profilePhotoPath);
         return userRepository.save(user);
     }
+
+
+
 }
